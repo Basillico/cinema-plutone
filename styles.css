@@ -434,6 +434,12 @@ a {
     font-size: 1.06rem;
   }
 
+  @media (max-width: 768px) {
+  nav {
+    display: none;
+  }
+  }
+
   .site-footer {
     flex-direction: column;
   }
