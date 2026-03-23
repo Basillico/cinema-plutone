@@ -189,6 +189,11 @@ a {
   width: 100%;
 }
 
+.intro,
+.participants {
+  padding:110px;
+}
+
 .intro .section,
 .participants .section,
 .trajectory .section {
