@@ -425,6 +425,7 @@ a {
   }
 }
 
+.manifesto,
 .trajectory {
   background: linear-gradient(180deg, rgba(81, 32, 255, 0.08), rgba(81, 32, 255, 0.02));
 }
