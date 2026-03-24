@@ -497,10 +497,7 @@ body.lightbox-open {
 
 @media (max-width: 768px) {
   .lightbox {
-    padding: 1rem;
-  nav {
-    display: none;
-    }
+    padding: 1rem;  
   }
 
   .lightbox-content {
@@ -511,5 +508,9 @@ body.lightbox-open {
   .lightbox-close {
     top: 0.75rem;
     right: 0.75rem;
+  }
+
+  nav {
+    display: none;
   }
 }
