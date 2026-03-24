@@ -677,11 +677,11 @@ body.lightbox-open {
   display: block;
 }
 
-.participant-card {
+/* .participant-card {
   display: flex;
   flex-direction: column;
 }
 
 .participant-links {
   margin-top: auto;
-}
+} */
