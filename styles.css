@@ -619,3 +619,69 @@ body.lightbox-open {
     display: none;
   }
 }
+
+.participant-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.participant-card p {
+  margin-bottom: 1.5rem;
+}
+
+.participant-links {
+  margin-top: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.participant-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: #1a1a1f;
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 0.72rem 0.95rem;
+  border-radius: 999px;
+  background: rgba(108, 91, 255, 0.08);
+  border: 1px solid rgba(108, 91, 255, 0.16);
+  transition: background 0.25s ease, border-color 0.25s ease, transform 0.25s ease, color 0.25s ease;
+}
+
+.participant-link:hover,
+.participant-link:focus {
+  background: rgba(108, 91, 255, 0.14);
+  border-color: rgba(108, 91, 255, 0.32);
+  color: #000000;
+  transform: translateY(-1px);
+}
+
+.participant-link-icon {
+  width: 1rem;
+  height: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #6c5bff;
+  flex-shrink: 0;
+}
+
+.participant-link-icon svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.participant-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.participant-links {
+  margin-top: auto;
+}
