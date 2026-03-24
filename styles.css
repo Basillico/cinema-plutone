@@ -620,7 +620,7 @@ body.lightbox-open {
   }
 }
 
-.participant-card {
+/* .participant-card {
   display: flex;
   flex-direction: column;
 }
@@ -675,13 +675,4 @@ body.lightbox-open {
   width: 100%;
   height: 100%;
   display: block;
-}
-
-/* .participant-card {
-  display: flex;
-  flex-direction: column;
-}
-
-.participant-links {
-  margin-top: auto;
 } */
