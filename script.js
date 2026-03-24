@@ -1,8 +1,20 @@
-<script>
+document.addEventListener('DOMContentLoaded', function () {
+  console.log('script caricato');
+
   const lightbox = document.getElementById('lightbox');
   const lightboxImage = document.getElementById('lightbox-image');
   const lightboxClose = document.getElementById('lightbox-close');
   const galleryImages = document.querySelectorAll('.gallery-image');
+
+  console.log('lightbox:', lightbox);
+  console.log('lightboxImage:', lightboxImage);
+  console.log('lightboxClose:', lightboxClose);
+  console.log('galleryImages trovate:', galleryImages.length);
+
+  if (!lightbox || !lightboxImage || !lightboxClose) {
+    console.error('Manca uno degli elementi della lightbox nell’HTML.');
+    return;
+  }
 
   function openLightbox(src, alt) {
     lightboxImage.src = src;
@@ -22,6 +34,7 @@
 
   galleryImages.forEach((image) => {
     image.addEventListener('click', () => {
+      console.log('click su immagine:', image.src);
       openLightbox(image.src, image.alt);
     });
   });
@@ -39,4 +52,4 @@
       closeLightbox();
     }
   });
-</script>
+});
