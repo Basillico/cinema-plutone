@@ -510,7 +510,7 @@ body.lightbox-open {
     right: 0.75rem;
   }
 
-  nav {
+  nav.topbar {
     display: none;
   }
 }
