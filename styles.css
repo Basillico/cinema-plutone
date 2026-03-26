@@ -621,6 +621,7 @@ a {
    width: 100%;
    aspect-ratio: 4 / 5;
    object-fit: cover;
+   object-position: 0% 0%;
 }
 
 .gallery-card.large img {
