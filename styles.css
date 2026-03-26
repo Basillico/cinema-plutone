@@ -672,6 +672,33 @@ a {
 }
 
 /* =========================
+   TESTIMONIANZE
+========================= */
+
+.press-quote {
+  margin: 0 0 2rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #e6e6ea;
+}
+
+.press-source-link {
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+  line-height: 1.2;
+  padding-bottom: 0.12rem;
+  border-bottom: 1px solid rgba(92, 46, 255, 0.7);
+  transition: color 0.25s ease, border-color 0.25s ease, opacity 0.25s ease;
+}
+
+.press-source-link:hover,
+.press-source-link:focus {
+  color: #cfc7ff;
+  border-bottom-color: rgba(255, 255, 255, 0.9);
+}
+
+/* =========================
    TRAJECTORY
 ========================= */
 
