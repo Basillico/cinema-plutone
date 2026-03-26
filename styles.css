@@ -616,9 +616,11 @@ a {
 }
 
 .gallery-card img {
-  min-height: 320px;
-  height: 100%;
-  object-fit: cover;
+  /* min-height: 320px;
+  height: 100%; */
+   width: 100%;
+   aspect-ratio: 4 / 5;
+   object-fit: cover;
 }
 
 .gallery-card.large img {
