@@ -979,3 +979,7 @@ a {
     border-radius: 16px;
   }
 }
+
+nav.topbar {
+   display: none;
+}
