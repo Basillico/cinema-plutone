@@ -937,7 +937,7 @@ a {
 @media (max-width: 768px) {
   .press-link-block {
     width: min(100%, calc(100% - 2rem));
-    margin-top: 1.5rem;
+    margin-top: 4.5rem;
   }
 
   .press-link {
