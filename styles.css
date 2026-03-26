@@ -1014,6 +1014,12 @@ a {
   }
 }
 
+@media (min-width: 900px) {
+  .hero-media-image {
+    object-position: center 20%;
+  }
+}
+
 nav.topbar {
    display: none;
 }
