@@ -929,6 +929,10 @@ a {
     padding: 40px 0 10px;
   }
 
+   .hero-media-image {
+    object-position: center 20%;
+  }
+
   .gallery-card img,
   .gallery-card.large img {
     min-height: 280px;
