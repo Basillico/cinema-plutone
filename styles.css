@@ -620,7 +620,7 @@ a {
    width: 100%;
    aspect-ratio: 4 / 5;
    object-fit: cover;
-   object-position: 0% 0%;
+   object-position: 50% 0%;
 }
 
 .gallery-card.large img {
@@ -920,7 +920,8 @@ a {
   .gallery-grid,
   .team-grid,
   .manifesto-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+     gap: 10px;
   }
 
   .hero-inner {
