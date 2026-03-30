@@ -922,9 +922,10 @@ a {
   .manifesto-grid {
     grid-template-columns: 1fr;
   }
+   
 .gallery-grid {
    grid-template-columns: 1fr 1fr;
-     gap: 10px;
+   gap: 10px;
 }
 
   .hero-inner {
