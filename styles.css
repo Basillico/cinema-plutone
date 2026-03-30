@@ -370,6 +370,8 @@ a {
   .hero-media-image {
     min-height: 40vh;
   }
+}
+   
   .hero-copy {
     padding: 3rem 0 3.5rem;
   }
