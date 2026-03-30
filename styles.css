@@ -364,7 +364,12 @@ a {
   .hero-media-image {
     min-height: 48vh;
   }
-
+   
+@media (max-width: 400px) {
+  .hero-media,
+  .hero-media-image {
+    min-height: 40vh;
+  }
   .hero-copy {
     padding: 3rem 0 3.5rem;
   }
